@@ -7,6 +7,8 @@ Research management with papers
 
 ## Semi-supervised
 
+### MixMatch: A Holistic Approach to Semi-Supervised Learning [paper](https://arxiv.org/pdf/1905.02249.pdf) [code](https://github.com/google-research/mixmatch)
+Learning from minimal labeled + large unlabeled data by using aumentation and sharpening - seems intersting to segmentation variant - Need to try!
 
 # Medical
 
@@ -15,15 +17,20 @@ Research management with papers
 ### Garel
 ### Kyrkyapodoulu
 
+
 # Reconstruction 
 
 ## 2D to 3D
 
-### Fast motion compensation and super-resolution from multiple stacks of 2D slices [code](https://github.com/bkainz/fetalReconstruction) [paper](https://github.com/bkainz/fetalReconstruction/blob/master)
+### Fast motion compensation and super-resolution from multiple stacks of 2D slices (PVR) [code](https://github.com/bkainz/fetalReconstruction) [paper](https://core.ac.uk/download/pdf/96762437.pdf)
 In test
 
 ### Slice-to-Volume Registration Network (SVRnet) [code](https://github.com/farrell236/SVRnet) [paper](https://ieeexplore.ieee.org/abstract/document/8295121/)
 For me, There is need for dataset (They use iFind) So I will try to reconstruct one from equivoxel T2 (Preterm) and resample.
+
+### Slice-to-volume medical image registration: a survey [paper] (https://arxiv.org/pdf/1702.01636.pdf)
+Need to move over it again
+
 
 ## Super resolution from KSpace 
 
@@ -39,4 +46,27 @@ Shows that SNR doesn’t necessarily correlate with image quality and radiologic
 ### Deep Learning Based Multi-Modal Fusion for Fast MR Reconstruction [paper](https://ieeexplore.ieee.org/abstract/document/8552399)
 close idea, but for T1+ Undersampled T2 -> T2. 
 take care that T2 has higher SNR than FLAIR inherently.
+
+# Datasets
+## Brain
+* Brats2018 - Brain Lesion Segmenation - HGG and LGG [Link](https://www.med.upenn.edu/sbia/brats2018/data.html) [v]
+
+   Constrast : T1, T1Gd, T2, FLAIR   
+   Mode : Preprocessed  
+   Type : MHA(?)  
+   Count : 210 HGG + 75 LGG = 285 Patients, No control  
+   Annotations : Lesions - split to components  
+
+
+* ABIDE [v]
+   Constrast : T1-MPRAGE  
+   Count : 1109  
+   Type : NiFTi  
+[Place]
+*
+* 
+## RAW
+* FastMRI - Knee [x]
+
+
 
