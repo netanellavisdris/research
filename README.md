@@ -14,8 +14,14 @@ Learning from minimal labeled + large unlabeled data by using aumentation and sh
 
 ## Fetal growth
 
-### Garel
-### Kyrkyapodoulu
+### Cerebral biometry in fetal magnetic resonance imaging: new reference data (*Garel*) [paper](https://www.ncbi.nlm.nih.gov/pubmed/19172662)
+Reference data for MRI biometry. 
+
+### Prenatal Brain MR Imaging: Reference Linear Biometric Centiles between 20 and 24 Gestational Weeks [paper](http://www.ajnr.org/content/early/2018/03/08/ajnr.A5574)
+Also have Bland-Altman plots  and tables with numerical values for intra-doctor aggreement on linear measurement for fetuses (20-24).
+
+### Normative biometry of the fetal brain using magnetic resonance imaging(*Kyrkyapodoulu*) [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5504265/)
+Explanataion of how we need to measure bometrics and reference excel with cacluations
 
 
 # Reconstruction 
@@ -28,7 +34,7 @@ In test
 ### Slice-to-Volume Registration Network (SVRnet) [code](https://github.com/farrell236/SVRnet) [paper](https://ieeexplore.ieee.org/abstract/document/8295121/)
 For me, There is need for dataset (They use iFind) So I will try to reconstruct one from equivoxel T2 (Preterm) and resample.
 
-### Slice-to-volume medical image registration: a survey [paper] (https://arxiv.org/pdf/1702.01636.pdf)
+### Slice-to-volume medical image registration: a survey [paper](https://arxiv.org/pdf/1702.01636.pdf)
 Need to move over it again
 
 
