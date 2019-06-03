@@ -37,10 +37,14 @@ By using multi-view(Cor+Ax+Sag) they got better result.
 ## 2D to 3D
 
 ### Fast motion compensation and super-resolution from multiple stacks of 2D slices (PVR) [code](https://github.com/bkainz/fetalReconstruction) [paper](https://core.ac.uk/download/pdf/96762437.pdf)
-In test
+In test, The code does not work on my GPU  (CUDA Error in patchBasedPSFReconstructionKernel(), line 132: too many resources requested for launch)
 
 ### Slice-to-Volume Registration Network (SVRnet) [code](https://github.com/farrell236/SVRnet) [paper](https://ieeexplore.ieee.org/abstract/document/8295121/)
 For me, There is need for dataset (They use iFind) So I will try to reconstruct one from equivoxel T2 (Preterm) and resample.
+
+### Robust Super-resolution Volume Reconstruction from Slice Acquisitions: Application to Fetal Brain MRI [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3694441/)
+
+Simon's paper - still trying to find it's code.
 
 ### Slice-to-volume medical image registration: a survey [paper](https://arxiv.org/pdf/1702.01636.pdf)
 Need to move over it again
@@ -83,4 +87,9 @@ take care that T2 has higher SNR than FLAIR inherently.
 * FastMRI - Knee [x]
 
 
+## Sequences 
+| GE | Siemens | Philips  |
+| --- | ----- | ----- |
+| ssFSE | HASTE | |
+| FIESTA | TruFI | |
 
