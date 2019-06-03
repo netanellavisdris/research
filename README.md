@@ -23,6 +23,14 @@ Also have Bland-Altman plots  and tables with numerical values for intra-doctor 
 ### Normative biometry of the fetal brain using magnetic resonance imaging(*Kyrkyapodoulu*) [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5504265/)
 Explanataion of how we need to measure bometrics and reference excel with cacluations
 
+## Brain age estimation
+
+### Assessment of MRI-Based Automated Fetal Cerebral Cortical Folding Measures in Prediction of Gestational Age in the Third Trimester[paper](http://www.ajnr.org/content/ajnr/early/2015/06/04/ajnr.A4357.full.pdf)
+Estimation of brain age using volume and cortical folding (sulcuses). evaluate 8 types of measuring sulcuses and take the best fit. take care that they didnt have a lot of data but still they got 98% R-square.
+
+### Deep Learning with Attention to Predict Gestational Age of the Fetal Brain [paper](https://arxiv.org/pdf/1812.07102.pdf)
+Using Unet+Attention on brain to estimate GA. Private DB of ~700 fetuses and straightforward(Medical) approach.
+By using multi-view(Cor+Ax+Sag) they got better result.
 
 # Reconstruction 
 
