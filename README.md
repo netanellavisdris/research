@@ -10,6 +10,16 @@ Research management with papers
 ### MixMatch: A Holistic Approach to Semi-Supervised Learning [paper](https://arxiv.org/pdf/1905.02249.pdf) [code](https://github.com/google-research/mixmatch)
 Learning from minimal labeled + large unlabeled data by using aumentation and sharpening - seems intersting to segmentation variant - Need to try!
 
+## Uncertanty estimation and lack of Ground truth
+
+### Simultaneous Truth and Performance Level Estimation (STAPLE): An Algorithm for the Validation of Image Segmentation [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1283110/) [code1](https://www.mathworks.com/matlabcentral/fileexchange/56789-staple-d) [code-orig] (http://crl.med.harvard.edu/software/STAPLE/request_access.php)
+Using EM variant alogorithm for estimation of GT with varirty of segmentations (/algorithms).
+The algorithm generates simultanously (M-step) Probablistic map of segmentation and then evaluate(E-step) the given segmentations vs the map. with extension to multiclass segmentation(partD) and global features(partE).
+Note that the algorithm assumes pixels are iid so no matter 2D or 3D.
+evalutaion was done on brain MRI and prostate MRI.
+[extension algorithm links](https://www.researchgate.net/publication/228454733_A_Tutorial_Introduction_to_STAPLE/download)
+
+
 # Medical
 
 ## Fetal growth
