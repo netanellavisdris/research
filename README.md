@@ -33,6 +33,10 @@ Also have Bland-Altman plots  and tables with numerical values for intra-doctor 
 ### Normative biometry of the fetal brain using magnetic resonance imaging(*Kyrkyapodoulu*) [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5504265/)
 Explanataion of how we need to measure bometrics and reference excel with cacluations
 
+### Accuracy of transverse cerebellar diameter measurement by ultrasonography in the evaluation of foetal age [paper](https://pdfs.semanticscholar.org/3ccd/f3d47a42c5fd401e843debda9c41e6ee9c56.pdf)
+Shows that TCD is better predictor than other linear mesurement for IUGR. Note that this done on US (which have more noise than MRI) but may (and we can see it by the variance) be true also for MRI.
+The foetal typo is original.
+
 ## Brain age estimation
 
 ### Assessment of MRI-Based Automated Fetal Cerebral Cortical Folding Measures in Prediction of Gestational Age in the Third Trimester[paper](http://www.ajnr.org/content/ajnr/early/2015/06/04/ajnr.A4357.full.pdf)
