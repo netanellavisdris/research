@@ -3,7 +3,7 @@ Research management with papers
 
 
  
-# Segmentation
+# Deep learning
 
 ## Semi-supervised
 
@@ -20,7 +20,15 @@ evalutaion was done on brain MRI and prostate MRI.
 [extension algorithm links](https://www.researchgate.net/publication/228454733_A_Tutorial_Introduction_to_STAPLE/download)
 
 
-# Medical
+## Landmarks
+
+### Adaloss: Adaptive Loss Function for Landmark Localization [paper](https://arxiv.org/pdf/1908.01070v1.pdf)
+Train landmark detector that increase the accuracy ( by reducing SDof gaussion for landmark detection) in train time adaptive to each class. Currently State-of-the-art in Face landmark detection (AFLW,300W)
+
+### Style Aggregated Network for Facial Landmark Detection [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Dong_Style_Aggregated_Network_CVPR_2018_paper.pdf)[code](https://github.com/D-X-Y/landmark-detection)
+
+previous StoA, addressing style varaiations of face landmark by CycleGAN generation, may be useful for robustness.
+# Medica
 
 ## Fetal growth
 
