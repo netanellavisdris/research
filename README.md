@@ -56,7 +56,7 @@ By using multi-view(Cor+Ax+Sag) they got better result.
 
 ## Brain symmetry
 
-### A NEW SYMMETRY-BASED METHOD FOR MID-SAGITTAL PLANE EXTRACTION IN NEUROIMAGES [paper] (http://www.chenpingyu.org/docs/2011ruppert1.pdf [code](http://www.chenpingyu.org/media/mspExtraction.zip) - Take cre , only exe
+### A NEW SYMMETRY-BASED METHOD FOR MID-SAGITTAL PLANE EXTRACTION IN NEUROIMAGES [paper] (http://www.chenpingyu.org/docs/2011ruppert1.pdf) [code](http://www.chenpingyu.org/media/mspExtraction.zip) - Take cre , only exe
 Find mis dagittal plane (MSP) in T1 brain images automatically, by using symetry-to-plane. 
 caluclating symmetry by correletaion between images in two side of plane and minimizing.
 
