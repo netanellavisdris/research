@@ -54,6 +54,15 @@ Estimation of brain age using volume and cortical folding (sulcuses). evaluate 8
 Using Unet+Attention on brain to estimate GA. Private DB of ~700 fetuses and straightforward(Medical) approach.
 By using multi-view(Cor+Ax+Sag) they got better result.
 
+## Brain symmetry
+
+### A NEW SYMMETRY-BASED METHOD FOR MID-SAGITTAL PLANE EXTRACTION IN NEUROIMAGES [paper] (http://www.chenpingyu.org/docs/2011ruppert1.pdf [code](http://www.chenpingyu.org/media/mspExtraction.zip) - Take cre , only exe
+Find mis dagittal plane (MSP) in T1 brain images automatically, by using symetry-to-plane. 
+caluclating symmetry by correletaion between images in two side of plane and minimizing.
+
+### An Efficient Automatic Midsagittal Plane Extraction in Brain MRI [paper](https://www.mdpi.com/2076-3417/8/11/2203/pdf)
+Faster(1s for 3D) and geometric, still need to understand how it works
+
 # Reconstruction 
 
 ## 2D to 3D
