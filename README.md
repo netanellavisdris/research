@@ -33,6 +33,21 @@ Train landmark detector that increase the accuracy ( by reducing SDof gaussion f
 ### Style Aggregated Network for Facial Landmark Detection [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Dong_Style_Aggregated_Network_CVPR_2018_paper.pdf)[code](https://github.com/D-X-Y/landmark-detection)
 
 previous StoA, addressing style varaiations of face landmark by CycleGAN generation, may be useful for robustness.
+
+# General Vision
+
+## Symmetry
+
+### PRST - A Planar-Refective Symmetry Transform for 3D Shapes  [paper](https://gfx.cs.princeton.edu/pubs/Podolak_2006_APS/symmpaper.pdf) [code](https://github.com/cmusatyalab/dermshare/blob/master/gemini/gemini/prst.py)
+
+Symmetry line(s) detection - Doesnt seems to work on 2D or I did not understand the output (R/theta?)
+
+### Loy-Eklundh - Detecting Symmetry and Symmetric Constellations of Features [paper](http://www.cse.psu.edu/~yul11/CourseFall2006_files/loy_eccv2006.pdf) [code](https://github.com/dramenti/symmetry)
+
+Symmetry line detection.
+Seems to work with Seg * Image on our data.
+
+
 # Medica
 
 ## Fetal growth
