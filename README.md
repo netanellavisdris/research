@@ -100,6 +100,10 @@ Simon's paper - still trying to find it's code.
 ### Slice-to-volume medical image registration: a survey [paper](https://arxiv.org/pdf/1702.01636.pdf)
 Need to move over it again
 
+### An automated framework for localization, segmentation and super-resolution reconstruction of fetal brain MRI [paper](https://www.sciencedirect.com/science/article/pii/S1053811919309152) [code](https://github.com/gift-surg/NiftyMIC)
+
+Full pipeline of localization and reconstruction for fetal, trained on SSFSE. seems promising.
+
 
 ## Super resolution from KSpace 
 
