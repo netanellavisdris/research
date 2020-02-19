@@ -83,6 +83,13 @@ caluclating symmetry by correletaion between images in two side of plane and min
 ### An Efficient Automatic Midsagittal Plane Extraction in Brain MRI [paper](https://www.mdpi.com/2076-3417/8/11/2203/pdf)
 Faster(1s for 3D) and geometric, still need to understand how it works
 
+## Agreement statistics
+
+### An Overview on Assessing Agreement with Continuous Measurements [paper](https://www.tandfonline.com/doi/full/10.1080/10543400701376480?casa_token=-2YXZJIOGfgAAAAA:v9l3Yn40UUcoSDpOwUramFdCfhG1lBYhRnhpUSId_qDDB1Wmue247k3DnZMWAY6i8n-l-9TaqwgNRNA)
+Overview
+
+### A graphical method for assessing agreement with the mean between multiple observers using continuous measures  [paper](https://academic.oup.com/ije/article/40/5/1308/658431)
+Estimator for inter-observer variability for more than 2 observers, take care that is is not exactly as Balnd-Altman results.
 # Reconstruction 
 
 ## 2D to 3D
