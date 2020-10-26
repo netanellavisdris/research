@@ -104,12 +104,16 @@ For me, There is need for dataset (They use iFind) So I will try to reconstruct 
 
 Simon's paper - still trying to find it's code.
 
-### Slice-to-volume medical image registration: a survey [paper](https://arxiv.org/pdf/1702.01636.pdf)
+### Slice-to-volume medical image registration: a survey [paper](https://arxiv.org/pdf/1702.01636v2.pdf)
 Need to move over it again
 
 ### An automated framework for localization, segmentation and super-resolution reconstruction of fetal brain MRI [paper](https://www.sciencedirect.com/science/article/pii/S1053811919309152) [code](https://github.com/gift-surg/NiftyMIC)
 
 Full pipeline of localization and reconstruction for fetal, trained on SSFSE. seems promising.
+
+### Deformable Slice-to-Volume Registration for Motion Correction in Fetal Body MRI [paper](https://arxiv.org/abs/1906.08827) [code](https://github.com/SVRTK)
+
+Did try it, it doesnt recontruct well. "wave" artifacts, It may be effect of optimization paramteres
 
 
 ## Super resolution from KSpace 
